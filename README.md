@@ -1,5 +1,5 @@
 # Running Vagrant
-Assuming vagrant is installed.
+Assuming vagrant is installed. This is a python based environment to dev. on ethereum block chain.
 
 ## Further setup
 ```
@@ -35,16 +35,16 @@ psql postgres
 
 ## Block chain
 ```
-mkdir -p /home/vagrant/app/etherium/data
+mkdir -p /home/vagrant/app/ethereum/data
 # Set up your genisis block if you havent look at populus... its installed too!
-geth --datadir="/home/vagrant/app/etherium/data" init /home/vagrant/app/etherium/genesis.json
+geth --datadir="/home/vagrant/app/ethereum/data" init /home/vagrant/app/ethereum/genesis.json
 
 # must have account before mining
-geth --datadir="/home/vagrant/app/etherium/data/" --networkid 61575 --nodiscover console
+geth --datadir="/home/vagrant/app/ethereum/data/" --networkid 61575 --nodiscover console
 personal.newAccount() => some_hash
 ```
 
 ## Interactive shell
 ```
-geth attach /home/vagrant/app/etherium/data/geth.ipc
+geth attach /home/vagrant/app/ethereum/data/geth.ipc
 ```
