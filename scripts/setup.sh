@@ -2,7 +2,7 @@
 
 # Author: Javier Chavez
 
-# provisions the etherium vm
+# provisions the ethereum vm
 
 PG_VERSION=9.6
 APP_NAME=appname
