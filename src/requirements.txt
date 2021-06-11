@@ -25,7 +25,7 @@ urllib3==1.21.1
 django-fernet-fields==0.5
 stripe==1.77.1
 rlp==0.6.0
-websockets==4.0.1
+websockets==9.1
 apns2==0.3.0
 pyapns2==2.0.0
 eth-utils==0.7.3
